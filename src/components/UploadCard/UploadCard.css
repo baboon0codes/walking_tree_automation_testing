@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.parentContainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.childContainer{
+    height: 55vh;
+    width: 50vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(47, 44, 171, 0.1);
+    box-shadow: 0px -71px 28px rgba(47, 44, 171, 0.01), 0px -40px 24px rgba(47, 44, 171, 0.03), 0px -18px 18px rgba(47, 44, 171, 0.04), 0px -4px 10px rgba(47, 44, 171, 0.05), 0px 0px 0px rgba(47, 44, 171, 0.05);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 3vh 1vw 2vh 1vw; 
+}
+.heading{
+    font-weight:500;
+    font-size: 20px;
+    margin-bottom:3vh;
+}
+.uploadArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    background: #F7FAFE;
+    box-shadow: inset 0px 32px 13px rgba(99, 166, 231, 0.01), inset 0px 18px 11px rgba(99, 166, 231, 0.03), inset 0px 8px 8px rgba(99, 166, 231, 0.04), inset 0px 2px 4px rgba(99, 166, 231, 0.05);
+    border-radius: 15px;
+    margin-bottom: 2vh;
+}
+#fileImage{
+    height: 8vh;
+    margin-right: 1vw;
+}
+.uploadMessage{
+    color: #989898;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+#cancel{
+    background-color: white;
+    border: 2px solid #2F2CAB;
+    border-radius: 4px;
+    color: #2F2CAB;
+    margin-right: 1.5vw;
+}
+#upload{
+    background-color: 2F2CAB;
+    border-radius: 4px;
+    color: white;
+}
