@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+.outercontainer{
+    height: 100vh;
+    width: 100vw;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+     /* padding-left: 10vw;
+    padding-right: 10vw;  */
+} 
+
+.navbar{
+    height: 12vh;
+    /* background-color: greenyellow;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    box-shadow: 0px 90px 36px rgba(47, 44, 171, 0.01), 0px 51px 30px rgba(47, 44, 171, 0.05), 0px 23px 23px rgba(47, 44, 171, 0.09), 0px 6px 12px rgba(47, 44, 171, 0.1), 0px 0px 0px rgba(47, 44, 171, 0.1);
+    border-radius: 0px 0px 16px 16px;
+
+}
+.userDetails{
+    height: 15vh;
+    /* background-color: palevioletred;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.Hello{
+    color: #2F2CAB;
+    font-size: 3vh;
+    font-weight: 500;
+    margin-bottom: 1vh;
+}
+.User{
+    color: #5F5F5F;
+    font-size: 4vh;
+    font-weight: 400;
+    
+}
+.BottomContainer{
+    display: flex;
+    /* align-items:start; */
+    height: 70vh;
+    box-shadow: 0px -140px 56px rgba(47, 44, 171, 0.01), 0px -79px 47px rgba(47, 44, 171, 0.05), 0px -35px 35px rgba(47, 44, 171, 0.09), 0px -9px 19px rgba(47, 44, 171, 0.1), 0px 0px 0px rgba(47, 44, 171, 0.1);
+    border-radius: 16px 16px 0px 0px;
+}
+.upload{
+    border: 1px solid rgba(47, 44, 171, 0.1);
+    box-shadow: inset 0px -71px 28px rgba(47, 44, 171, 0.01), inset 0px -40px 24px rgba(47, 44, 171, 0.03), inset 0px -18px 18px rgba(47, 44, 171, 0.04), inset 0px -4px 10px rgba(47, 44, 171, 0.05);
+    border-radius: 10px;
+    height:53vh;
+    padding-left:1vw;
+    padding-top: 1vh;
+    margin-top: 2vw;
+    
+}
+.beforeModal{
+    display: flex;
+    align-items: center;
+}
+.beforeModal:hover{
+    cursor: pointer;
+}
+#uploadFile{
+    height: 7vh;
+    margin-right: 1vw;
+}
+.uploadText{
+    font-weight: 700;
+    color: #989898;
+}
+.fileUploadCard{
+    margin: 1vh 1vw 1vh 0vw;
+    padding:1vh 1vw 1vh 0vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: greenyellow; */
+    color: #989898;
+    font-weight: 700;
+    height: 8vh;
+    font-size: 2.5vh;
+}
+.fileResultCard{
+    display: flex;
+    padding:1vh 1vw 1vh 1vw;
+    margin: 1vh 1vw 1vh 0vw;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(47, 44, 171, 0.1);
+    box-shadow: inset 0px -71px 28px rgba(47, 44, 171, 0.01), inset 0px -40px 24px rgba(47, 44, 171, 0.03), inset 0px -18px 18px rgba(47, 44, 171, 0.04), inset 0px -4px 10px rgba(47, 44, 171, 0.05);
+    border-radius: 16px;   
+    font-size: 2.5vh; 
+}
+.wrapperDiv{
+    display: flex;
+}
+.fileDetails{
+    display:flex;
+    flex-direction: column;
+}
+#downloadFile{
+    height: 7vh;
+}
+#file{
+    height: 7vh;
+    margin-right: 1vw;
+}
+#deleteLogo{
+    height: 1vh;
+}
+.results{
+    color: #989898;
+    font-weight: 700;
+    font-size: 3vh;
+    width: 30vw;
+    padding:5vh 5vw 5vh 5vw;
+    
+    /* background-color: yellowgreen; */
+}
+.resultsText{
+    margin-bottom: 2vh;
+}
+.documents{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 5vw 5vh 5vw;
+    width: 31vw;
+     /* background-color: rebeccapurple;  */
+}
+.docHeading{
+    font-size: 3vh;
+    font-weight: 700;
+    color: #989898;
+    width: 40vw;
+}
+#logo{
+    height: 5vh;
+}
+#user{
+    height: 6vh;
+}
+#generate{
+    margin-top: 6vh;
+}
+.results{
+    display: flex;
+    flex-direction: column;
+}
+.finish{
+    width: 10vw;
+    padding: 5vh 5vw 5vh 5vw;
+}
